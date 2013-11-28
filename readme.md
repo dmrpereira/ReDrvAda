@@ -6,5 +6,4 @@ that need the construction of automata.
 TODO: 
  - add formal contracts;
  - provide support for further primitive constructions of families of regular expressions (e.g., complement and intersection)
- - finish extension to partial derivatives
  - concrete instance for string matching
