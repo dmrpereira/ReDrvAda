@@ -1,6 +1,6 @@
 generic
 
-package Formal_Language.Re.Re_S is
+package Re.Re_S is
 
    type Re_S is new Re_Type with private;
 
@@ -22,4 +22,4 @@ private
          Stared_Re : Re_Access ;
       end record;
 
-end Formal_Language.Re.Re_S;
+end Re.Re_S;

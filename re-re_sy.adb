@@ -1,4 +1,4 @@
-package body Formal_Language.Re.Re_Sy is
+package body Re.Re_Sy is
 
    function Make_Re_Sy(S:in Sy) return Re_Access is
       Foo : Re_Access;
@@ -46,4 +46,4 @@ package body Formal_Language.Re.Re_Sy is
       return Str;
    end Print;
 
-end Formal_Language.Re.Re_Sy;
+end Re.Re_Sy;

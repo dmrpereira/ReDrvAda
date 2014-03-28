@@ -1,4 +1,4 @@
-package body Formal_Language.Re.Re_U is
+package body Re.Re_U is
 
    function Make_Re_U(R1,R2:in Re_Access) return Re_Access is
       Foo : Re_Access;
@@ -58,4 +58,4 @@ package body Formal_Language.Re.Re_U is
       return Tmp;
    end Print;
 
-end Formal_Language.Re.Re_U;
+end Re.Re_U;

@@ -1,9 +1,7 @@
-with Formal_Language.Re; --use Re;
---with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 
 generic
 
-package Formal_Language.Re.Re0 is
+package Re.Re0 is
 
    --use type Re.Re_Type;
 
@@ -22,4 +20,4 @@ private
 
    type Re0 is new Re_Type with null record;
 
-end Formal_Language.Re.Re0;
+end Re.Re0;

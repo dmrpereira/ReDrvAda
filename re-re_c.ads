@@ -2,7 +2,7 @@
 
 generic
 
-package Formal_Language.Re.Re_C is
+package Re.Re_C is
 
    type Re_C is new Re_Type with private;
 
@@ -26,4 +26,4 @@ private
          Right_Re : Re_Access;
       end record;
 
-end Formal_Language.Re.Re_C;
+end Re.Re_C;

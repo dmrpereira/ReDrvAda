@@ -1,4 +1,4 @@
-package body Formal_Language.Re.Re1 is
+package body Re.Re1 is
 
    function Make_Re1 return Re_Access is
       Foo : Re_Access;
@@ -28,4 +28,4 @@ package body Formal_Language.Re.Re1 is
    end Print;
 
 
-end Formal_Language.Re.Re1;
+end Re.Re1;

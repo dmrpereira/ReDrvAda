@@ -6,9 +6,9 @@ generic
    with function "<"(S1:in Sy;S2:in Sy) return Boolean;
    with function String_Repr(X:in Sy) return String;
    
-packageRe is
+package Re is
 
-   type Re_Type is abstract tagged with private;
+   type Re_Type is abstract tagged private;
 
    type Re_Access is access all Re_Type'Class;
 
@@ -30,4 +30,4 @@ private
 	 Re_Id : Natural;
       end record;
 
-end Formal_Language.Re;
+end Re;

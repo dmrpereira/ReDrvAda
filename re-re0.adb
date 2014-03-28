@@ -1,4 +1,4 @@
-package body Formal_Language.Re.Re0 is
+package body Re.Re0 is
 
    function Make_Re0 return Re_Access is
       Foo : Re_Access ;
@@ -28,4 +28,4 @@ package body Formal_Language.Re.Re0 is
       return (To_Unbounded_String("0"));
    end Print;
 
-end Formal_Language.Re.Re0;
+end Re.Re0;

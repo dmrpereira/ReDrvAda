@@ -1,4 +1,4 @@
-package body Formal_Language.Re.Re_C is
+package body Re.Re_C is
 
    function Make_Re_C(R1,R2:in Re_Access) return Re_Access is
       Foo : Re_Access;
@@ -59,4 +59,4 @@ package body Formal_Language.Re.Re_C is
    end Print;
 
 
-end Formal_Language.Re.Re_C;
+end Re.Re_C;

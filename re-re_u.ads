@@ -2,7 +2,7 @@
 with Ada.Text_IO; use Ada.Text_IO;
 generic
 
-package Formal_Language.Re.Re_U is
+package Re.Re_U is
 
    type Re_U is new Re_Type with private;
 
@@ -26,4 +26,4 @@ private
          Right_Re : Re_Access;
       end record;
 
-end Formal_Language.Re.Re_U;
+end Re.Re_U;

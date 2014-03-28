@@ -1,6 +1,6 @@
 generic
 
-package Formal_Language.Re.Re_Sy is
+package Re.Re_Sy is
 
    type Re_Sy is new Re_Type with private;
 
@@ -22,4 +22,4 @@ private
          Sy_Val : Sy ;
       end record;
 
-end Formal_Language.Re.Re_Sy;
+end Re.Re_Sy;
